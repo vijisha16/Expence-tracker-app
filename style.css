@@ -1,0 +1,11 @@
+input[id="text"]{
+    height: 15px;
+    width: 40px;
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }

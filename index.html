@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" id="frmExpence">
+        <p id="error"></p>
+        <label for="input" id="lbl-expenceAmt">Chose Expence Amount</label>
+        <input type="text" id="txt-expenceAmt">
+        <label for="input" id="lbl-description">Chose Description</label>
+        <select name="description" id="drp-decription">
+            <option value="Personal">Personal</option>
+            <option value="Electricity Bill">Electricity Bill</option>
+            <option value="Water Bill">Water Bill</option>
+            <option value="House Rent">House Rent</option>
+        </select>
+        <label for="input" id="category">Chose A Category</label>
+        <select name="category" id="drp-category">
+            <option value="Fuel">Fuel</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Mobile">Mobile</option>
+            <option value="Vehicle">Vehicle</option>
+        </select>
+        <button id="btn-expence">Add Expence</button>
+
+        <ul id="expenceList"></ul>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
